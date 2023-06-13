@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" />
+	<title>Form Input</title>
+</head>
+<body>
+	<h1></h1>
+	<form>
+		<label for="nama">Nama:</label>
+		<input type="text" id="nama" name="nama">
+
+		<label for="alamat">Alamat:</label>
+		<textarea id="alamat" name="alamat"></textarea>
+
+		<label for="font-size">FontSize:</label>
+		<input type="number" id="font-size" name="font-size" value="16">
+
+		<label for="background">Background:</label>
+		<input type="color" id="background" name="background" value="#ffffff">
+
+		<input type="button" value="PROSES" onclick="proses()">
+	</form>
+
+	<div id="hasil"></div>
+
+	<script src="script.js"></script>
+</body>
+</html>

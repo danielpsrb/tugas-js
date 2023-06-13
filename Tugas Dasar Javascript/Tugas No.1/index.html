@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perhitungan Persegi Panjang</title>
+    <link href="style.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="persegipanjang.png" type="image/png">
+</head>
+<body>
+    <div class wrapper>
+        <h2>PERSEGI PANJANG</h2>
+	   <form>
+		<label for="panjang">Panjang:</label>
+		<input type="text" id="panjang" name="panjang" required><br><br>
+
+		<label for="lebar">Lebar:</label>
+		<input type="text" id="lebar" name="lebar" required><br><br>
+
+		<button type="button" onclick="hitung()">HITUNG</button>
+        <p id="luas"></p>
+	    <p id="keliling"></p>
+	   </form>
+    </div>
+
+	<script src="nilai.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url(bg.jpg);
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #f6f6f6;
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #hasil {
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,116 @@
+/* Styling untuk body */
+
+body {
+    background-color: blueviolet;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling untuk form */
+  
+  form {
+    background-color: white;
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Styling untuk label */
+  
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: black;
+  }
+  
+  /* Styling untuk input */
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: white ;
+    border-bottom: 2px solid #555555;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Styling untuk button */
+  
+  .button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #111;
+  }
+  
+  /* Styling untuk pesan sukses */
+  
+  .success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #c3e6cb;
+  }
+  
+  /* Styling untuk pesan gagal */
+  
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #f5c6cb;
+  }
+  
+  /* Styling untuk form ketika login berhasil */
+  
+  form.success-form {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form.success-form h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  form.success-form p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling untuk form ketika login gagal */
+  
+  form.error-form {
+    background-color: white;
+    width: 400px;
+   
+  
